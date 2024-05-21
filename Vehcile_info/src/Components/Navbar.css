@@ -1,0 +1,27 @@
+.sidebar {
+  background-color: #b5c0d0;
+  width: 100%;
+}
+.sidebar .navbar {
+  padding: 30px;
+}
+.sidebar .navbar .navbar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .navbar .navbar-nav .nav-item {
+  padding: 5px;
+
+  cursor: pointer;
+}
+
+.sidebar .navbar .navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+}
+
+.sidebar .navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: #eef7ff;
+  color: #40a2e3;
+  width: 200%;
+}

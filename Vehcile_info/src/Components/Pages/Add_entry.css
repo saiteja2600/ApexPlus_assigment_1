@@ -1,0 +1,64 @@
+.form-control,
+.form-select {
+  background-color: #222831;
+  color: #d1d4c9;
+
+  opacity: 0.8;
+}
+.form-select {
+  opacity: 1;
+}
+.form-control::placeholder {
+  color: #d1d4c9;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.form-select option {
+  background-color: #222831;
+  color: #d1d4c9;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn1 {
+  background-color: #9ade7b;
+  color: #fff;
+  width: 150px;
+}
+
+.btn2 {
+  background-color: #ffb534;
+  color: #fff;
+  width: 150px;
+}
+
+.btn3 {
+  background-color: #5ab2ff;
+  color: #fff;
+  width: 150px;
+}
+
+.error-messages {
+  background-color: #fc4100;
+  color: #fff;
+  font-size: 12px;
+}
+
+.form-control.error,
+.form-select.error {
+  border: 1px solid red;
+  opacity: 0.5;
+}
+.form-control.vehicle_errors,
+.form-select.vehicle_errors {
+  border: 1px solid red;
+  opacity: 0.5;
+}
